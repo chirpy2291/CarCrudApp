@@ -29,7 +29,7 @@ b)	car should not be more than 15 years old
 
 <b>HOW TO USE:</b>
 
-Build the application by skipping test cases(jUnits are yet to be completed), as there are some bugs in JUnits ,need to be fixed<EntityManagerFactory issue>.
+Build the application by skipping test cases(<b>jUnits are yet to be completed due to technical error</b>), as there are  bugs in JUnits ,need to be fixed<EntityManagerFactory issue>.
 Run the application and once the initialisation is complete,use postman/terminal to Use the API's as decribed below.
 This App also implements hystrix circuit breaker and caching enabled at service layer as described below.
 This app uses H2 database (packaged dependecy with the project),for storing and retrieving the data.
