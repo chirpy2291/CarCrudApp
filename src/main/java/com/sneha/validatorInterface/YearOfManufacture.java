@@ -17,7 +17,7 @@ import com.sneha.validatorImplementation.YearOfManufactureValidator;
 @Constraint(validatedBy = YearOfManufactureValidator.class)
 @Documented
 public @interface  YearOfManufacture {
-	String message() default "Car cannot be more than 15 years Old";
+	String message() default "Car cannot be more than 15 years Old or greater than current year";
 
     Class<?>[] groups() default {};
 

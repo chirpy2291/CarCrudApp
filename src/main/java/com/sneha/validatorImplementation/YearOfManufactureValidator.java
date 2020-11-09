@@ -14,7 +14,7 @@ public class YearOfManufactureValidator implements ConstraintValidator<YearOfMan
 	    	 LocalDate currentdate = LocalDate.now();
 	         
 	         int currentYear = currentdate.getYear();
-	        if(currentYear-value>15)
+	        if(currentYear-value>15 || currentYear-value<0)
 	        	return false;
 	        return true;
 	    }
