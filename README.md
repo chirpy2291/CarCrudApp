@@ -34,6 +34,23 @@ Run the application and once the initialisation is complete,use postman/terminal
 This App also implements hystrix circuit breaker and caching enabled at service layer as described below.
 This app uses H2 database (packaged dependecy with the project),for storing and retrieving the data.
 
+<b>Application Property:</b>
+spring.datasource.url=jdbc:h2:mem:cars_data
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sneha
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+
+<b>Connect to H2 db on link:</b>
+http://localhost:8080/h2-console
+
+use : jdbc:h2:mem:cars_data  as jdbc url.
+      username: sneha
+      password: <blank>
+
+Click on Connect.
+
 <b>API description:</b>
 
 1)POST
