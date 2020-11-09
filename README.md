@@ -108,7 +108,20 @@ Output: Returns the carid on succesful insertion
   
   URL:http://localhost:8080/car/1
   
+************************************************
   
+<b>VALIDATIONS</b>
+
+This APP has some validations like:
+
+a)	car name should not contain spaces and special characters.
+b)	car should not be more than 15 years old
+c)      fuelType cannot be other than {PETROL/DIESEL/ELECTRIC}
+
+
+************************************************
+
+
   
 ************************************************
   
