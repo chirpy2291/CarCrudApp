@@ -67,6 +67,9 @@ Output: Returns the carid on succesful insertion
   URL:http://localhost:8080/car/1
   
   
+  
+************************************************
+  
 HOW TO TEST CACHING:
 
 This APP has enabled caching at getAllCars service.
@@ -101,6 +104,9 @@ This APP has enabled caching at getAllCars service.
 
 Thread.sleep has been implemented for 5 seconds to show cahce working.Once for first time data is retrieved from database<application waits for 5 secinds>.
 Post that same data would be retrieved from cache.
+
+
+************************************************
 
 
 HOW TO TEST HYSTRIX:
