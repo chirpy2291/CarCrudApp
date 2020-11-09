@@ -1,5 +1,30 @@
 Car CRUD App - Spring Boot
 
+<b>PROBLEM STATEMENT</b>
+
+Implement Microservice using Spring Boot & RestFul Architecture style.
+
+For below Bean class, with following fields
+public class Car {
+       private String carName;
+       private Integer carId;
+       private double price;
+                             private String model;
+private Integer yearOfManufacture;
+private String fuelType; (possible values PETROL/DIESEL/ELECTRIC)
+}
+
+
+1.	Microservice with CRUD operations to create Car.
+2.	Create appropriate layers.
+3.	Write custom validations such that
+a)	car name should not contain spaces and special characters.
+b)	car should not be more than 15 years old
+4.	Enable Caching at Service Layer and demonstrate it for the same Car Service Layer
+5.	Get car review from `. Add circuit breaker pattern
+6.	Add JUnit Test cases including integration tests
+
+
 <b>HOW TO USE:</b>
 
 Build the application by skipping test cases(jUnits are yet to be completed), as there are some bugs in JUnits ,need to be fixed<EntityManagerFactory issue>.
