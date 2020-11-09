@@ -1,13 +1,13 @@
 Car CRUD App - Spring Boot
 
-<b>HOW TO USE:
+<b>HOW TO USE:</b>
 
 Build the application by skipping test cases(jUnits are yet to be completed), as there are some bugs in JUnits ,need to be fixed<EntityManagerFactory issue>.
 Run the application and once the initialisation is complete,use postman/terminal to Use the API's as decribed below.
 This App also implements hystrix circuit breaker and caching enabled at service layer as described below.
 This app uses H2 database (packaged dependecy with the project),for storing and retrieving the data.
 
-API description:
+<b>API description:</b>
 
 1)POST
 
@@ -70,7 +70,7 @@ Output: Returns the carid on succesful insertion
   
 ************************************************
   
-HOW TO TEST CACHING:
+<b>HOW TO TEST CACHING:</b>
 
 This APP has enabled caching at getAllCars service.
 
@@ -102,14 +102,14 @@ This APP has enabled caching at getAllCars service.
   
   *************************************************
 
-Thread.sleep has been implemented for 5 seconds to show cahce working.Once for first time data is retrieved from database<application waits for 5 secinds>.
-Post that same data would be retrieved from cache.
+<b>Thread.sleep has been implemented for 5 seconds to show cahce working.Once for first time data is retrieved from database<application waits for 5 secinds>.
+Post that same data would be retrieved from cache.</b>
 
 
 ************************************************
 
 
-HOW TO TEST HYSTRIX:
+<b>HOW TO TEST HYSTRIX:</b>
 
 Try fetching some data that does nnot exist.You should get a null object.
 
@@ -124,4 +124,5 @@ Output:
     "yearOfManufacture": null,
     "fuelType": null
 }
+  
   
