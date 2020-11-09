@@ -1,6 +1,6 @@
 Car CRUD App - Spring Boot
 
-HOW TO USE:
+<b>HOW TO USE:
 
 Build the application by skipping test cases(jUnits are yet to be completed), as there are some bugs in JUnits ,need to be fixed<EntityManagerFactory issue>.
 Run the application and once the initialisation is complete,use postman/terminal to Use the API's as decribed below.
