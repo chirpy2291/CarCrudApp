@@ -166,6 +166,7 @@ Post that same data would be retrieved from cache.</b>
 
 <b>HOW TO TEST HYSTRIX:</b>
 
+This App has hystrix enabled at getCarById.
 Try fetching some data that does nnot exist.You should get a null object.
 
 GET: http://localhost:8080/car/5
