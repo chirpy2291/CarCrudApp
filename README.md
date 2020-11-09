@@ -129,7 +129,7 @@ This APP has enabled caching at getAllCars service.
   
   *************************************************
 
-<b>Thread.sleep has been implemented for 5 seconds to show cahce working.Once for first time data is retrieved from database<application waits for 5 secinds>.
+<b>Thread.sleep has been implemented for 5 seconds to demonstrate cache working.Once for first time data is retrieved from database<application waits for 5 seconds>.
 Post that same data would be retrieved from cache.</b>
 
 
