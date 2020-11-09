@@ -45,9 +45,7 @@ spring.h2.console.enabled=true
 <b>Connect to H2 db on link:</b>
 http://localhost:8080/h2-console
 
-use : jdbc:h2:mem:cars_data  as jdbc url.
-      username: sneha <\n>
-      password: <blank>
+use : jdbc:h2:mem:cars_data  as jdbc url  || username: sneha  ||  password: <blank>
 
 Click on Connect.
 
